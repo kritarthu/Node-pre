@@ -1,0 +1,8 @@
+Inside proxy server
+x-destination-url header found 
+Sending request to {"url":"http://localhost:8000/","method":"POST"}
+Inside echo server
+Echo server headers recievedhostEcho server headers recieveduser-agentEcho server headers recievedacceptEcho server headers recievedx-destination-urlEcho server headers recievedcontent-lengthEcho server headers recievedcontent-typeEcho server headers recievedconnection{"host":"localhost:8000","user-agent":"curl/7.43.0","accept":"*/*","x-destination-url":"localhost:8000","content-length":"11","content-type":"application/x-www-form-urlencoded","connection":"close"}
+Inside proxy server
+x-destination-url header found 
+Sending request to {"url":"http://google.com/","method":"GET"}

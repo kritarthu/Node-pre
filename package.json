@@ -1,0 +1,16 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "Proxy server to work as http proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "kupadh",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.69.0",
+    "yargs": "^3.32.0"
+  }
+}
